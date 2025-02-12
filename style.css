@@ -1,0 +1,554 @@
+body{
+    margin: 0px;
+
+    padding: 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+input:focus{
+    outline: none;
+}
+
+.container{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Ubuntu;
+}
+
+.header{
+    width: 1440px;
+    height: 782px;
+    flex-shrink: 0;
+}
+
+.header-Bayan{
+    width: 1440px;
+    height: 150px;
+    background: #FCFCFC;
+
+    display: flex;
+
+    align-items: center;
+
+
+    flex-direction: column;
+
+
+    
+
+
+
+}
+
+.header-Bayan__logo{
+    margin-right: 60px;
+}
+
+.header-Bayan__city{
+    border: none;
+
+    background: #FCFCFC;
+
+    color: #1D1D1D;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 18px */
+
+}
+
+.header-Bayan__city-gps{
+    margin-bottom: -4px;
+}
+
+.header-Bayan__search{
+    width: 601px;
+    height: 40px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.50)  ;
+
+    margin-left: 61px;
+}
+
+.header-Bayan__search__by-goods{
+    width: 400px;
+    border: none;
+
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 18px */
+    opacity: 0.5;
+}
+
+.header-Bayan__search__img{
+    margin-left: 155px;
+
+    border: none;
+
+
+    background-color: #FCFCFC;
+}
+
+.header-Bayan__search__img-Lupa{
+    margin-bottom: -10px;
+}
+
+.header-Bayan__login{
+    margin-left: 61px;
+}
+
+.header-Bayan__heard{
+    margin-left: 48px;
+
+    margin-bottom: 10px;
+}
+
+.header-Bayan__korzina{
+    margin-left: 48px;
+
+    margin-bottom: 10px;
+}
+
+.header-Bayan-display{
+    display: flex;
+
+    align-items: center;
+
+    justify-content: start;
+
+    margin-top: 31px;
+}
+
+.header-Bayan-display-2{
+    margin-top: 63px;
+
+}
+
+.header-Bayan__item{
+    margin-right: 96px;
+}
+
+.header-Bayan-list{
+
+    display: flex;
+    align-items: center;
+
+    margin-left: 50px;
+}
+
+.header-Bayan__decor{
+    color: #1D1D1D;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 18px */
+
+    text-align: center;
+
+    white-space: nowrap;
+
+}
+
+.header__collection{
+    width: 1440px;
+    height: 592px;
+    flex-shrink: 0;
+    background: #618C78;
+
+    margin-top: 70px;
+}
+
+.header__collection__display{
+    display: flex;
+
+    align-items: center;
+
+    justify-content: start;
+}
+
+.header__collection__info{
+    margin-left: 76px;
+
+    margin-top: 135px;
+}
+
+.header__collection__Title{
+    color: #F9F9F9;
+    font-family: Ubuntu;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 78px */
+    width: 500px;
+}
+
+.header__collection__look{
+    width: 198px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #CB4A4A;
+
+
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 25.2px */
+
+    border: none;
+}
+
+.header__collection__img{
+    margin-top: 97px;
+
+    display: flex;
+
+    align-items: center;
+}
+
+.header__collection__img-price{
+    width: 170px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F9F9F9;
+
+    color: #1D1D1D;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 18px */
+
+    border: none;
+
+
+    margin-top: 270px;
+}
+
+
+
+.header__collection__img__carpet-2{
+    position: relative;
+    margin-left: -50px;
+}
+
+
+
+
+
+
+
+.modal{
+    display: none;
+    position: relative;
+    bottom: 750px;
+    align-items: center;
+
+    justify-content: center;
+
+    width: 1440px;
+    height: 782px;
+    flex-shrink: 0;
+    background: #28282854;
+ }
+ 
+ .modal-clouse{
+    display: block;
+
+
+ }
+ 
+ 
+ .modal-section{
+    position: absolute;
+    width: 700px;
+    height: 569px;
+    background: #FCFCFC; 
+
+    left: 345px;
+
+    top: 106px;
+ }
+
+ .modal_display{
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-direction: column;
+ }
+
+
+ .modal-section-Choicee{
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+ }
+
+ .modal-section-Choicee-Title{
+    margin-right: 410px;
+ }
+
+ .modal-section-search-find{
+    width: 620px;
+    height: 40px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: start;
+
+    background-color: #F9F9F9;
+
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 18px */
+
+    border-bottom: 1px solid rgba(27, 27, 27, 0.5);
+
+    margin-left: 40px;
+ }
+
+ .modal-section-search-city{
+    width: 420px;
+    border: none;
+
+    background-color: #F9F9F9;
+
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 18px */
+    opacity: 0.5;
+    
+ }
+
+ .modal-section-search-lupa{
+    margin-left: 300px;
+    background-color: #F9F9F9;
+    border: none;
+ }
+
+ .modal-section-decor{
+    display: flex;
+
+
+ }
+
+ .modal-section-item{
+    margin-top: 16px;
+ }
+
+ .modal-section-item-decor{
+    color: #1D1D1D;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 18px */
+
+    transition: all 0.5s;
+ }
+
+ .modal-section-item-decor:hover{
+    color: #618C78;
+ }
+
+ .media{
+    display: none;
+ }
+
+
+
+ @media only screen and (max-width: 768px){
+    .container{
+        width: 768px;
+        margin-left: auto;
+
+        margin-right: auto;
+    }
+
+    .media{
+        display: block;
+     }
+    .header{
+        display: none;
+    }
+
+    .media{
+        width: 768px;
+        height: 50px;
+        flex-shrink: 0;
+        background: #F9F9F9;
+    }
+
+    .media-Bayan{
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+    }
+
+    .media-Bayan-btn{
+        background-color: #F9F9F9;
+
+        border: none;
+
+        margin-right: 16px;
+
+        margin-bottom: 15px;
+    }
+
+    .media-Bayan-search{
+        width: 114px;
+        height: 25px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #EFF3F6;
+        display: flex;
+
+        align-items: center;
+
+        margin-top: 7px;
+
+        margin-left: 33px;
+    }
+
+    .media-Bayan-find{
+        width: 44px;
+        background: #EFF3F6;
+
+        border: none;
+
+        
+    }
+
+    .media-Bayan-lupa{
+        background: #EFF3F6;
+
+        border: none;
+
+
+        color: #000;
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 14px */
+        opacity: 0.5;
+    }
+
+    .media-Bayan-onclick{
+        margin-top: 20px;
+    }
+
+    .media-collection{
+        width: 768px;
+        height: 520px;
+        flex-shrink: 0;
+        background: #618C78;
+    }
+
+    .media-collection__Title{
+        width: 350px;
+        color: #F9F9F9;
+        text-align: center;
+        font-family: Ubuntu;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%; /* 39px */
+
+        margin-left: 200px;
+    }
+
+    .media-collection-kovr{
+        width: 220px;
+        height: 288px;
+        flex-shrink: 0;
+
+        margin-top: 15px;
+
+        background-image: url('foto/image\ 5.png');
+
+        margin-left: 250px;
+    }
+
+    .media-collection-points{
+        margin-left: 330px;
+
+        margin-top: 16px;
+    }
+
+    .media-collection-points-disp{
+        background-color: #618C78;
+
+        border: none;
+    }
+
+    .media-collection-points-disp2{
+        background-color: #618C78;
+
+        border: none;
+    }
+
+    .media-collection-points-disp3{
+        background-color: #618C78;
+
+        border: none;
+    }
+
+    .media-collection-look{
+        width: 280px;
+        height: 51px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #CB4A4A;
+
+
+        color: #FFF;
+        text-align: center;
+        font-family: Ubuntu;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 25.2px */
+
+
+        border: none;
+
+        margin-top: 30px;
+
+        margin-left: 230px;
+    }
+
+ }
